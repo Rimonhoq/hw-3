@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label>Name</label>
+            <input type="text" required="" maxlength="20" placeholder="Name"><br><br>
+            <label>Father Name</label>
+            <input type="text" required="" placeholder="Father Name"><br><br>
+            <label>Mother Name</label>
+            <input type="text" required="" placeholder="Mother Name"><br><br>
+            <label>date of birth</label>
+            <input type="date" max="2022-12-31"><br><br>
+            <label>Number</label>
+            <input type="tel"><br><br>
+            <label>National Id</label>
+            <input type="number"><br><br>
+            <label>Email</label>
+            <input type="email" placeholder="@gmail.com"><br><br>
+            <label>Birth reg number</label>
+            <input type="number"><br><br>
+            <label>Password</label>
+            <input type="password"><br><br>
+            <label>Education</label>
+            <input type="text">
+        </fieldset><br><br>
+        <label>Occupation</label>
+        <input type="text"><br><br>
+        <label>Blood group</label>
+        <select>
+            <option>Select your blood group</option>
+            <optgroup label="positive">
+            <option>A+</option>
+            <option>AB+</option>
+            <option>0+</option>
+            <option>B+</option>
+        </optgroup>
+            <optgroup label="Negative">
+            <option>AB-</option>
+            <option>A-</option>
+            <option>O-</option>
+            <option>B-</option>
+        </optgroup>
+        </select><br><br>
+        <label>Gender</label>
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Custom</option>
+        </select><br><br>
+            <label>Gender<b>:</b></label>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Male">
+            <label for="Female">FeMale</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="custom">custom</label>
+            <input type="radio" name="gender" id="custom"><br><br>
+            <label>Religion</label>
+            <select>
+                <option>Islam</option>
+                <option>Hindu</option>
+                <option>Buddhu</option>
+                <option>Christian</option>
+            </select><br><br>
+            <label>color</label>
+            <input type="color"><br><br>
+            <label>Present address</label>
+            <textarea cols="60" rows="5"></textarea><br><br>
+            <input type="checkbox">
+            <label> I agree with terms and condition</label><br><br>
+            <button type="submit">Registration</button><br><br>
+   </form>
+</body>
